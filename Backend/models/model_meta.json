@@ -1,0 +1,23 @@
+{
+  "numeric_features": [
+    "Amount",
+    "Time",
+    "PreviousFraudHistory"
+  ],
+  "categorical_features": [
+    "Country",
+    "MerchantCategory",
+    "TransactionType",
+    "Device",
+    "CardType"
+  ],
+  "metrics": {
+    "accuracy": 0.98668,
+    "precision": 0.9773244409572381,
+    "recall": 0.99648,
+    "f1": 0.9868092691622103,
+    "roc_auc": 0.9958657816
+  },
+  "random_state": 42,
+  "target_column": "IsFraud"
+}
